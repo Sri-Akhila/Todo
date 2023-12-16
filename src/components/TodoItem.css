@@ -1,0 +1,22 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  justify-content: space-between;
+  font-weight: 900;
+}
+
+.todo-content {
+  display: flex;
+}
+
+.delete,
+.edit {
+  cursor: pointer;
+}
+
+.completed {
+  color: dimgrey;
+  font-weight: 800;
+}
